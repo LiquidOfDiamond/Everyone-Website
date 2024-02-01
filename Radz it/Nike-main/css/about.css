@@ -1,0 +1,139 @@
+/* google fonts (Jost) */
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* universal css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost';
+    text-decoration: none;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+/* selection */
+
+::selection{
+    color: #fff;
+    background-color: #C8815f;
+}
+
+.nav__bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 6vw;
+}
+
+.logo{
+    color: #111;
+    font-size: 36px;
+    font-weight: 600;
+
+    >span{
+        color: #C8815f;
+    }
+}
+
+.nav__links{
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.link{
+    color: #111;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 24px;
+    transition: .3s color;
+}
+
+.link:hover{
+    color: #C8815f;
+}
+
+.nav__icons{
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.nav__icons i{
+    color: #111;
+    font-size: 24px;
+    transition: .3s color;
+    cursor: pointer;
+}
+
+.nav__icons i:hover{
+    color: #C8815f;
+}
+/* About Section */
+.about {
+    background: white;
+    padding: 100px 0 20px 0;
+    text-align: center;
+}
+ 
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+ 
+.about p {
+    font-size: 1rem;
+    color: #323030;
+    max-width: 800px;
+    margin: 0 auto;
+}
+ 
+.about-info {
+    margin: 2rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+}
+ 
+.about-img {
+    width: 30rem;
+    height: 20rem;
+ 
+}
+ 
+.about-img img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: contain;
+}
+ 
+.about-info p {
+    font-size: 1.3rem;
+    margin: 0 2rem;
+    text-align: justify;
+}
+ 
+button {
+    border: none;
+    outline: 0;
+    padding: 10px;
+    margin: 2rem;
+    font-size: 1rem;
+    color: white;
+    background-color: #C8815f;
+    text-align: center;
+    cursor: pointer;
+    width: 15rem;
+    border-radius: 4px;
+}
+ 
+button:hover {
+    background-color: black;
+}
